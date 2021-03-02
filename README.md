@@ -7,7 +7,7 @@
  
   • Copy and paste this big command on your termux application   
  
-    'pkg I wget -y && wget https://raw.githubusercontent.com/Unos-Company/Termux-Desktop/main/setup-desktop.sh && bash setup-desktop.sh'
+    'pkg i wget -y && wget https://raw.githubusercontent.com/Unos-Company/Termux-Desktop/main/setup-desktop.sh && bash setup-desktop.sh'
 
 # Windows manager 
    Xfce4 
