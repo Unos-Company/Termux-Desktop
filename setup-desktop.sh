@@ -84,10 +84,8 @@ git clone https://github.com/BagazMukti/MuxSic
 cd MuxSic
 ./install.sh
 mkdir .vnc
-echo '
-## unos-company 
-## Xstartup 
-startxfce4 & ' ~/.vnc/xstartup
+echo '#!/bin/bash
+ startxfce4 &' > ~/.vnc/xstartup
 chmod 777 .vnc/xstartup
 clear
 echo "Please enter your password "
